@@ -1,36 +1,121 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+📌 Scan4Discount
 
-## Getting Started
+Scan4Discount is a smart QR-based discount platform that helps businesses attract and retain customers effortlessly. By offering instant, scannable discounts, it encourages repeat visits and builds customer loyalty through an automated discount loop.
 
-First, run the development server:
+🚀 Features
 
-```bash
+🔳 QR Code based discount system
+
+🎁 Randomized discount rewards
+
+🔁 Encourages repeat customer visits
+
+📊 Simple and scalable business flow
+
+🌍 Region-based routing (/us and /in)
+
+📩 Contact & Newsletter APIs
+
+💳 Pricing page with structured plans
+
+🧠 How It Works
+
+Customer scans QR code
+
+Instant discount is revealed
+
+Purchase is made
+
+Customer returns for more discounts
+
+Business grows through repeat visits
+
+🏗 Tech Stack
+
+Next.js 16 (App Router)
+
+TypeScript
+
+Tailwind CSS
+
+Lucide Icons
+
+Vercel Deployment
+
+Proxy (Geo-based Region Routing)
+
+🌍 Region-Based Routing
+
+The application automatically detects user location and redirects:
+
+🇺🇸 USA → /us
+
+🇮🇳 India → /in
+
+Powered by Next.js Proxy (Edge Runtime).
+
+📂 Project Structure
+app/
+ ├── [region]/
+ │    ├── page.tsx
+ │    ├── features/
+ │    ├── pricing/
+ │    ├── contact/
+ │    └── register/
+ ├── api/
+ │    ├── contact/
+ │    ├── newsletter/
+ │    └── register/
+ ├── layout.tsx
+ └── globals.css
+
+⚙️ Installation
+
+Clone the repository:
+
+git clone https://github.com/yourusername/scan4discount.git
+cd scan4discount
+
+
+Install dependencies:
+
+npm install
+
+
+Run development server:
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Build for production:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+npm run build
 
-## Learn More
+🚀 Deployment
 
-To learn more about Next.js, take a look at the following resources:
+The project is optimized for Vercel deployment.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Push to GitHub
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Import project in Vercel
 
-## Deploy on Vercel
+Deploy
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Geo-based routing works automatically in production.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+📌 Future Improvements
+
+Analytics dashboard for businesses
+
+Admin control panel
+
+Customer scan tracking
+
+Reward customization
+
+Performance optimization
+
+📄 License
+
+this project belong to Visys Cloud solutions 
+iam using this in my git for testing purpose in vercel.
